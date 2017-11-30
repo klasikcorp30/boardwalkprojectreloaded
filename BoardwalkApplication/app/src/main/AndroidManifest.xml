@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Menu_Items"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".SignatureActivity" android:parentActivityName=".Menu_Items" />
+        <activity android:name=".ChickenActivity" android:parentActivityName=".Menu_Items" />
+        <activity android:name=".TurkeyActivity" android:parentActivityName=".Menu_Items"></activity>
     </application>
 
 </manifest>
