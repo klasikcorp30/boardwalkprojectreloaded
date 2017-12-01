@@ -36,6 +36,9 @@
         <activity
             android:name=".Beverages"
             android:parentActivityName=".Menu_Items" />
+        <activity android:name=".Coffee"  android:parentActivityName=".Beverages"/>
+        <activity android:name=".Smoothie" android:parentActivityName=".Beverages"/>
+        <activity android:name=".Milkshake" android:parentActivityName=".Beverages"></activity>
     </application>
 
 </manifest>
