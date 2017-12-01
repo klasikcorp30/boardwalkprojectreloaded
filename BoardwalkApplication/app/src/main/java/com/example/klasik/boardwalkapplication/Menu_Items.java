@@ -27,6 +27,11 @@ public class Menu_Items extends AppCompatActivity {
         startActivity(chicken);
     }
 
+    public void Beverages(View view){
+        Intent beverage_screen=new Intent(this, Beverages.class);
+        startActivity(beverage_screen);
+    }
+
     //------------------------------------------------------------------
 
     private String name,description;

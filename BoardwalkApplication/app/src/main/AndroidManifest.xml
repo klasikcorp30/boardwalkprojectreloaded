@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.klasik.boardwalkapplication">
 
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,9 +24,18 @@
         <activity
             android:name=".Menu_Items"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".SignatureActivity" android:parentActivityName=".Menu_Items" />
-        <activity android:name=".ChickenActivity" android:parentActivityName=".Menu_Items" />
-        <activity android:name=".TurkeyActivity" android:parentActivityName=".Menu_Items"></activity>
+        <activity
+            android:name=".SignatureActivity"
+            android:parentActivityName=".Menu_Items" />
+        <activity
+            android:name=".ChickenActivity"
+            android:parentActivityName=".Menu_Items" />
+        <activity
+            android:name=".TurkeyActivity"
+            android:parentActivityName=".Menu_Items" />
+        <activity
+            android:name=".Beverages"
+            android:parentActivityName=".Menu_Items" />
     </application>
 
 </manifest>
