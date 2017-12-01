@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">BoardwalkApplication</string>
+    <string name="title_activity_menu_item">menuItem</string>
+    <string name="wrap_text">Signature Crunchy Tuna</string>
+    <string name="deli">Smoked Salmon</string>
+    <string name="wraps_burgers">Wraps and Burgers</string>
+    <string name="beverages">Beverages</string>
+    <string name="jaDish">Jamaican Dish</string>
+    <string name="grilled">Grilled Chicken Sandwich</string>
+    <string name="turkey">Turkey Sandwich</string>
+    <string name="Name">Signature Crunchy Tuna</string>
+    <string name="Descr">Flaked Tuna, raisins and carrots in the perfect filling for your tuna</string>
+    <string name="cost">$400</string>
 </resources>
